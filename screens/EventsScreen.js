@@ -6,10 +6,11 @@ import {createStackNavigator} from "@react-navigation/stack";
 function EventsHomeScreen({navigation}) {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text>Events!</Text>
+        <Text>Day One Schedule</Text>
+        <Text></Text>
         <Button
             onPress={() =>navigation.navigate ("EventsSecond")}
-            title ="Second SCreen"
+            title ="Second Screen"
         ></Button>
       </View>
     );
@@ -18,7 +19,23 @@ function EventsHomeScreen({navigation}) {
   function EventsSecondScreen({navigation}) {
     return (
         <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-            <Text>Events Second Page!</Text>
+            <Text>Day Two Schedule</Text>
+            <Button
+            onPress={() =>navigation.navigate ("EventsThird")}
+            title ="Third Screen"
+        ></Button>
+        </View>
+    );
+ }
+
+ function EventsThirdScreen({navigation}) {
+    return (
+        <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+            <Text>Day Three Schedule</Text>
+            <Button
+            onPress = {() => navigation.popToTop()}
+            title = "Back to top"
+            ></Button>
         </View>
     );
  }
@@ -29,6 +46,7 @@ function EventsHomeScreen({navigation}) {
           <Stack.Navigator>
               <Stack.Screen name="EventsHome" component ={EventsHomeScreen}/>
               <Stack.Screen name="EventsSecond" component ={EventsSecondScreen}/>
+              <Stack.Screen name="EventsThird" component ={EventsThirdScreen}/>
           </Stack.Navigator>
       )
   }
