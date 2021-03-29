@@ -8,9 +8,16 @@ function EventsHomeScreen({navigation}) {
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
         <Text>Day One Schedule</Text>
         <Text></Text>
+        <Text>1. The Intl SOS Journey</Text>
+        <Text></Text>
+        <Text>2. Business Overview</Text>
+        <Text></Text>
+        <Text>3. First Call and our integrated approach</Text>
+        <Text></Text>
+        <Text></Text>
         <Button
             onPress={() =>navigation.navigate ("Events Second")}
-            title ="Second Screen"
+            title ="Click to Second Day"
         ></Button>
       </View>
     );
@@ -20,9 +27,16 @@ function EventsHomeScreen({navigation}) {
     return (
         <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
             <Text>Day Two Schedule</Text>
+            <Text></Text>
+            <Text>ABL Sales Solutions and Capabilities</Text>
+            <Text></Text>
+            <Text>Integration and Collaboration with </Text>
+            <Text>our Health and Security Partners</Text>
+            <Text></Text>
+            <Text></Text>
             <Button
             onPress={() =>navigation.navigate ("Events Third")}
-            title ="Third Screen"
+            title ="Click to Third Day"
         ></Button>
         </View>
     );
@@ -32,6 +46,11 @@ function EventsHomeScreen({navigation}) {
     return (
         <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
             <Text>Day Three Schedule</Text>
+            <Text></Text>
+            <Text>Let's party</Text>
+            <Text>Let's Boogie</Text>
+            <Text>Let's be silly</Text>
+            <Text></Text>
             <Button
             onPress = {() => navigation.popToTop()}
             title = "Back to top"
