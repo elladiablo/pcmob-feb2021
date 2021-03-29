@@ -4,28 +4,28 @@ import { List, Title } from 'react-native-paper'
 
 const contactsData = [
   {
-    name: "Charlie McCharles",
+    name: "Laurent Fourier",
     title: "CEO",
-    company: "Baskets International LLC",
-    pic: "https://randomuser.me/portraits/men/1.jpg",
+    company: "Assistance Business Line",
+    pic: "https://media-exp1.licdn.com/dms/image/C4D03AQEWrRc23WJMlA/profile-displayphoto-shrink_800_800/0/1549213125235?e=1622073600&v=beta&t=ZRyqrVGR-PWM8EEdh4dZpp4DRA7IiC0n6sEHTLxiIzU",
   },
   {
-    name: "Desiree Dee",
-    title: "CMO",
-    company: "Busket Inc",
-    pic: "https://randomuser.me/portraits/women/1.jpg",
+    name: "Des Donnelly",
+    title: "Senior Vice President",
+    company: "Group Sales Distribution",
+    pic: "https://media-exp1.licdn.com/dms/image/C4E03AQEzTJ_yXUUucQ/profile-displayphoto-shrink_800_800/0/1516283950182?e=1622073600&v=beta&t=aJbvI40d8Nai31rlcfPK-p7agh9CNj1QFL-D42-VtJg",
   },
   {
-    name: "Adam ellis",
-    title: "CTO",
-    company: "Baskets of Biskits",
-    pic: "https://randomuser.me/portraits/men/2.jpg",
+    name: "Lim Hui Ject",
+    title: "Regional Group Director",
+    company: "Asia Region",
+    pic: "https://media-exp1.licdn.com/dms/image/C4D03AQFKSUHz42hJ1w/profile-displayphoto-shrink_800_800/0/1517502768817?e=1622073600&v=beta&t=1Hyq0y5SGv48JKMLCDq4gxGGzyzZwN2vqo1kb-A2kGo",
   },
   {
-    name: "Papaya Tan",
-    title: "CMO",
-    company: "Papayas Inc",
-    pic: "https://randomuser.me/portraits/men/20.jpg",
+    name: "David Ball",
+    title: "Regional Sales Director",
+    company: "South East Asia",
+    pic: "https://media-exp1.licdn.com/dms/image/C4D03AQH3rjCKqNDiFQ/profile-displayphoto-shrink_800_800/0/1516508778290?e=1622073600&v=beta&t=8s9tReMeE2TGkdX1btAQ4ey1P_gcQEl53IW4InO7cgQ",
   },
 ];
 

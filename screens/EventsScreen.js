@@ -9,7 +9,7 @@ function EventsHomeScreen({navigation}) {
         <Text>Day One Schedule</Text>
         <Text></Text>
         <Button
-            onPress={() =>navigation.navigate ("EventsSecond")}
+            onPress={() =>navigation.navigate ("Events Second")}
             title ="Second Screen"
         ></Button>
       </View>
@@ -21,7 +21,7 @@ function EventsHomeScreen({navigation}) {
         <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
             <Text>Day Two Schedule</Text>
             <Button
-            onPress={() =>navigation.navigate ("EventsThird")}
+            onPress={() =>navigation.navigate ("Events Third")}
             title ="Third Screen"
         ></Button>
         </View>
@@ -44,9 +44,9 @@ function EventsHomeScreen({navigation}) {
   export default function EventsStack() {
       return (
           <Stack.Navigator>
-              <Stack.Screen name="EventsHome" component ={EventsHomeScreen}/>
-              <Stack.Screen name="EventsSecond" component ={EventsSecondScreen}/>
-              <Stack.Screen name="EventsThird" component ={EventsThirdScreen}/>
+              <Stack.Screen name="Events Home" component ={EventsHomeScreen}/>
+              <Stack.Screen name="Events Second" component ={EventsSecondScreen}/>
+              <Stack.Screen name="Events Third" component ={EventsThirdScreen}/>
           </Stack.Navigator>
       )
   }
